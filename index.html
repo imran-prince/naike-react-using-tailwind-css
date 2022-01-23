@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nike ract using tailwind</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+
+              colors: {
+                clifford: '#da373d',
+                 
+              },
+               
+            }
+          }
+        }
+      </script>
+
+</head>
+<body>
+    <header>
+        <nav class="container mx-auto md:flex justify-between items-center ">
+            <div>
+                <img src="icons/Logo.png" sm:width="250px" alt="">
+            </div>
+            <ul class="md:flex text-2xl  font-semibold  " >
+                <li class="mx-4">Home</li>
+                <li class="mx-4">Product</li>
+                <li class="mx-4">About</li>
+                <li class="mx-4">Contact</li>
+            </ul>
+        </nav>
+    </header>
+    <section class="container mx-auto my-6 md:flex items-center justify-around px-5 ">
+        <div>
+            <img src="images/Group 33092.png " class="w-3/4" alt="">
+        </div>
+        <div class="mr-5 my-10">
+            <h1 class=" md:text-7xl font-extrabold"> <span class="text-red-600">NIKE REACT</span>  <span class="text-amber-500">INFINITY  RUN 2</span>  </h1>
+            <P class="font-semibold text-xl my-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis ipsam quae aliquam aspernatur officiis cupiditate.</P>
+            <button class="rounded-lg bg-blue-500 flex items-center px-5 py-3 my-5 text-2xl hover:bg-red-700 hover:scale-110 hover:transition-all"  > <img src="icons/shopping-cart 1.png" class="w-10 mr-2" alt="">  Buy Now</button>
+        </div>
+
+    </section>
+
+    
+</body>
+</html>
